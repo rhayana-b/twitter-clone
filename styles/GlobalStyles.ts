@@ -6,7 +6,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 
-    background-color: var(--white);
+    color: var(--white);
   }
 
   html, body, #root { 

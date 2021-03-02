@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Header, BackIcon, ProfileInfo } from './styles';
 
 const Main: React.FC = () => {
@@ -5,12 +6,12 @@ const Main: React.FC = () => {
    <Container>
       <Header>
         <button>
-            <BackIcon />
+          <BackIcon />
         </button>
 
         <ProfileInfo>
-            <strong>Name</strong>
-            <span>xxx tweets</span>
+          <strong>Rhayana B.</strong>
+          <span>100 Tweets</span>
         </ProfileInfo>
       </Header>
       
