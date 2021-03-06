@@ -7,6 +7,7 @@ export {
   LocationOn,
   Search,
 } from 'styled-icons/material-outlined';
+export { Twitter } from '@styled-icons/fa-brands/Twitter';
 export { Person, Cake, Favorite } from 'styled-icons/material';
 export { Repeat } from '@styled-icons/evaicons-solid/Repeat';
 export { ArrowLeft } from 'styled-icons/heroicons-solid';
