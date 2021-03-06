@@ -1,5 +1,7 @@
 ## Twitter UI Clone using NextJS and Styled Components
 
+You can navigate at https://twitter-rhayana-b.vercel.app/ 
+
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/51388356/110217980-ea3c9d80-7e95-11eb-8850-352c77567b58.png">
   <img src="https://user-images.githubusercontent.com/51388356/110217999-0d674d00-7e96-11eb-94fe-6962451ca5a0.png">
