@@ -68,7 +68,7 @@ export const Header = styled.div`
     margin-right: 5px;
   }
 
-  > ruby-span, time {
+  > span, time {
     color: var(--gray);
   }
 
@@ -94,7 +94,7 @@ export const TextContent = styled.p`
 export const ImageContent = styled.div`
   margin-top: 12px;
   width: 100%;
-  height: min-content(285px, max(175, 41vw));
+  height: min(285px, max(175px, 41vw));
 
   background: var(--outline);
   border-radius: 14px;
@@ -112,11 +112,14 @@ export const IconButtons = styled.div`
   flex-wrap: wrap;
   margin: 11px auto 0;
   width: 100%; 
+
   @media (min-width: 330px) {
     width: 63%;
   }
+
   > div {
     cursor: pointer;
+
     &:hover {
       opacity: 0.7;
     }
@@ -127,14 +130,15 @@ export const Status = styled.div`
   display: flex;
   align-items: center;
   font-size: 14px;
+
   > svg {
     margin-right: 5px;
   }
 
   &:nth-child(1) {
-    &,
+    color: var(--gray);
     > svg path {
-      color: var(--gray);
+      fill: var(--gray);
     }
   }
 
@@ -158,8 +162,14 @@ const iconCSS = css`
   height: 19px;
 `;
 
-export const ReplyButton = styled(MessageRounded)`${iconCSS}`;
+export const ReplyButton = styled(MessageRounded)`
+  ${iconCSS}
+`;
 
-export const RetweetButton = styled(Repeat)`${iconCSS}`;
+export const RetweetButton = styled(Repeat)`
+  ${iconCSS}
+`;
 
-export const LikeButton = styled(Favorite)`${iconCSS}`;
+export const LikeButton = styled(Favorite)`
+  ${iconCSS}
+`;
