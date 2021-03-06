@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfilePage from '../ProfilePage';
+import Feed from '../Feed';
 import { 
   Container,
   Header,
@@ -27,6 +28,7 @@ const Main: React.FC = () => {
       </Header>
       
       <ProfilePage />
+      <Feed />
       
       <BottomMenu>
         <HomeIcon className="active"/>

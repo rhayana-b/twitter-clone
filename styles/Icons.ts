@@ -8,6 +8,6 @@ export {
   Search,
 } from 'styled-icons/material-outlined';
 export { Person, Cake, Favorite } from 'styled-icons/material';
+export { Repeat } from '@styled-icons/evaicons-solid/Repeat';
 export { ArrowLeft } from 'styled-icons/heroicons-solid';
-export { Chat } from 'styled-icons/heroicons-outline';
-// export { RocketseatIcon as Rocketseat } from '../components/RocketseatIcon';
+export { MessageRounded } from '@styled-icons/boxicons-regular/MessageRounded';
